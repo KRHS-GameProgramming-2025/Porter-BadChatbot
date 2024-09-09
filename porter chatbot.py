@@ -24,7 +24,7 @@ if fallsport.lower() == "football":
 	print(fallsport.lower() + " is mine too " + name)
 else:
 	Sport2 = input ("I dont know that sport " + name + " how do you play the sport? " + name+"." )
-	print ("thats sounds complicated")
+	print ("thats sounds fun , but complicated")
  
 	
 
