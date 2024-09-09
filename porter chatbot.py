@@ -23,7 +23,8 @@ fallsport = input("what is your favorite fall sport? ")
 if fallsport.lower() == "football":
 	print(fallsport.lower() + " is mine too " + name)
 else:
-	Sport2 = input ("I dont know that sport " + name + "how do you play the sport? " + name+"." )
+	Sport2 = input ("I dont know that sport " + name + " how do you play the sport? " + name+"." )
+	print ("thats sounds complicated")
  
 	
 
@@ -44,7 +45,7 @@ if cook == "yes":
 elif cook == "no":
 	print("oh it sounded hard")
 else:
-	print (" use yes or no")
+	print (" use yes or no" )
 	
 	
 
