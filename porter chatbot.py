@@ -46,6 +46,7 @@ elif cook == "no":
 	print("oh it sounded hard")
 else:
 	print (" use yes or no" ) 
+print (":)")
 	
 	
 
