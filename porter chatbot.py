@@ -29,7 +29,7 @@ else:
 	
 
 
-food= input("whats your favorite food? " + name + " ")
+food= input("what's your favorite food " + name + "? ")
 if food == "sushi" or food == "Sushi":
 	print("cool that's my favorite food")
 else :
@@ -38,24 +38,19 @@ else :
 
 
 	
+cook = ""
+while cook != "yes" and cook != "no":
+	cook = input ("is " + food +" hard to make? ")	
+	if cook == "yes":
+		print("I bet it is hard")
+	elif cook == "no":
+		print("oh it sounded hard")
+	else:
+		print (" use yes or no" ) 
 	
-cook = input ("is " + food +" hard to make? ")
-if cook == "yes":
-	print("I bet it is hard")
-elif cook == "no":
-	print("oh it sounded hard")
-else:
-	print (" use yes or no" ) 
-	
-cook = input ("is " + food +" hard to make? ")
-if cook == "yes":
-	print("I bet it is hard")
-elif cook == "no":
-	print("oh it sounded hard")
-else:
-	print (" use yes or no" )
 
-print ("have a great day")
-print (":)")
+
+print (" thanks for talking with me " + name+ " I learned a lot about you. I might go try " +food+ " have a great day.")
+
 	
 
