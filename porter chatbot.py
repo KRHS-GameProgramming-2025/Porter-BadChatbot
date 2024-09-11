@@ -46,7 +46,16 @@ elif cook == "no":
 	print("oh it sounded hard")
 else:
 	print (" use yes or no" ) 
-print (":)")
 	
+cook = input ("is " + food +" hard to make? ")
+if cook == "yes":
+	print("I bet it is hard")
+elif cook == "no":
+	print("oh it sounded hard")
+else:
+	print (" use yes or no" )
+
+print ("have a great day")
+print (":)")
 	
 
